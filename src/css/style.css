@@ -78,7 +78,7 @@ u {
 }
 /* Mobile */
 
-.header_nav { /*Pendisnte*/
+.header_nav {
     background-color: var(--secundary-color);
     height: 50px;
     width: 100%;
@@ -117,12 +117,17 @@ u {
 .front > * {
     text-align: center;
 }
-/*.about,
-.skills {
-    align-items: start;
-}*/
+.front h2{
+    font-size: 28px;
+    font-family: cursive;
+}
+
+.about {
+    padding: auto;
+}
+
 .about iframe {
-    height: 50%;
+    height: 40%;
 
 }
 .hard__skills {
@@ -131,7 +136,7 @@ u {
     width: 100%;
 }
 .slider__skills {
-    height: 90%;
+    height: 80%;
     display: flex;
     justify-content: center;
 }
@@ -179,12 +184,18 @@ u {
     border-radius: 20px;
     overflow: hidden;
 }
+.splide__pagination {
+    align-items: flex-end;
+}
 /*Fin del estilos paa el slider splide*/
 .education {
     justify-content: space-evenly;
 }
 .achievements figure {
     height: 40%;
+}
+.achievements p {
+    padding: 60px;
 }
 .footer {
     width: 80px;
@@ -321,6 +332,8 @@ u {
         grid-column: 1;
         grid-row: 2;
         text-align: left;
+        font-size: 32px;
+        font-family: cursive;
     } 
     .front p{
         grid-column: 1;

@@ -7,17 +7,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/*.hero__title {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-size: 50px;
-  z-index: 1;
-}*/
-
 img {
   max-width: 100%;
   max-height: 100%;

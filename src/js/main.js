@@ -171,17 +171,18 @@ function printProjects (projects) {
         list[i].innerHTML = html;
     });
 }
-function slider () {
+function slider(){
     const splide = new Splide( '.splide', {
-        type: 'loop',
-        autoplay: true,
+        type   : 'loop',
+        autoplay:true,
+        interval: 3000,
         speed: 1000,
         breakpoints: {
             849: {
                 direction: 'ttb',
-                height: '65vh',
+                height: "65vh",
             },
-        } 
+      }
       } );
     splide.mount();
 }
